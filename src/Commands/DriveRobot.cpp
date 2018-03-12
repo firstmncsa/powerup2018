@@ -23,7 +23,6 @@ DriveRobot::DriveRobot(): frc::Command() {
 
 // Called just before this Command runs the first time
 void DriveRobot::Initialize() {
-	std::cout << "GameData: " << Robot::drivetrain->getGameSpecificMessage() << std::endl;
 }
 
 // Called repeatedly when this Command is scheduled to run
